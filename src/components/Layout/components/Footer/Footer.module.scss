@@ -1,0 +1,94 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #303132;
+}
+
+.contactFooter {
+    padding: 2.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactFooter h3 {
+    color: #b7b5b0;
+}
+
+.m32{
+    margin-top: 3.2rem;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listIcon {
+    display: flex;
+    margin-top: 3.2rem;
+}
+
+.listIcon a {
+    text-decoration: none;
+    color: #fefefe;
+    padding: 0.8rem;
+    margin: 0.4rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.assistanceContent {
+    color: #f4ede1;
+    font-size: 1.2rem;
+}
+
+.copyright h2 {
+    color: #b7b5b0;
+    font-size: 1.2rem;
+}
+
+.copyright h2 a {
+    color: #b7b5b0;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.subInput {
+    width: 100%;
+    background-color: #535151;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 8rem 0.8rem 2.4rem;
+    margin-top: 3.2rem;
+    outline: none;
+}
+
+.subInput:hover {
+    background-color: #f4ede1;
+    color: #000000;
+}
+
+.btnSub {
+    width: 100%;
+    margin-top: 1.2rem;
+    font-size: 100;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.btnSub:hover{
+    opacity: 0.9;
+}
+
+
+.subText {
+
+}

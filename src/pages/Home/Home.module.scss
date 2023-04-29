@@ -1,0 +1,68 @@
+.wrapper {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    width: 100%;
+    position: relative;
+    background-color: #e4e4e4;  
+}
+
+.backgroundImg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.backgroundText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 3.6rem;
+}
+
+.backgroundText h1 {
+    font-size: 4.8rem;
+    font-weight: 900;
+    letter-spacing: 0.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.backgroundText button {
+    border: none;
+}
+
+.backgroundText button .btnBgLink:hover{
+    background-color: #fff;
+    color: #000000;
+    transition: all 0.4s linear;
+}
+
+.backgroundText button .btnBgLink {
+    background-color: #303132;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.4rem;
+    padding: 0.8rem 4.8rem;
+}
+
+.backgroundFooter{
+    width: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem 0 0.8rem 0;
+    letter-spacing: 0.4rem;
+    font-size: 1.2rem;
+}
+
+.backgroundFooter h4{
+
+}
