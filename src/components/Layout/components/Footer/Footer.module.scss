@@ -21,10 +21,15 @@
 }
 
 .col {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.subcol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .listIcon {
@@ -90,5 +95,7 @@
 
 
 .subText {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
