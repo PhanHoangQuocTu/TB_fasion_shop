@@ -1,12 +1,12 @@
 //Layouts
-import HeaderOnly from '~/components/Layout/HeaderOnly';
+import MainLayout from '~/components/Layout/MainLayout';
 import AdminLogin from '~/pages/Admin/AdminLogin';
 
 import Home from '~/pages/Home';
 
 //Public Routes
 const publicRoutes = [
-    { path: '/', component: Home, layout: HeaderOnly},
+    { path: '/', component: Home, layout: MainLayout},
     { path: '/admin', component: AdminLogin, layout: null}
 ]
 
