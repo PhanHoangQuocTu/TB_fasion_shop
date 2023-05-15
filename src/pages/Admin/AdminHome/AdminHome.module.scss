@@ -1,0 +1,61 @@
+.wrapper{
+    width: 100%;
+    padding: 2.4rem;
+}
+
+.iconHome{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+
+.iconHome i{
+    background-image: linear-gradient(to left,#616161 , #b0b0b0 );
+    padding: 1.2rem;
+    color: #fff;
+    border-radius: 0.4rem;
+}
+
+.iconHome p{
+    padding: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.subMenu{
+    display: flex;
+    width: 100%;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.sub{
+    width: 30%;
+    margin-right: 1.2rem;
+    height: 12rem;
+    border-radius: 0.8rem;
+}
+
+.sub:hover{
+    opacity: 0.8;
+}
+
+.sub p{
+    font-weight: 900;
+    font-size: 2.4rem;
+    color: #fff;
+    padding: 1.2rem;
+    
+}
+
+.user{
+    background-image: linear-gradient(to left, #bffdac, #00b3ffe2);
+}
+
+.product{
+    background-image: linear-gradient(to left, #fdacac, #ff0000e2);
+}
+
+.cusCare{
+    background-image: linear-gradient(to left, #acdefd, #95ff00e2);
+}

@@ -10,24 +10,16 @@ function Footer() {
                     <div className={styles.subcol}>
                         <ul className={styles.listIcon}>
                             <a href='https://www.facebook.com/phanhoangquoctu/'>
-                                <li>
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </li>
+                                <i className="fa-brands fa-facebook-f"></i>
                             </a>
                             <a href='https://www.linkedin.com/in/phanhoangquoctu/'>
-                                <li>
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                </li>
+                                <i className="fa-brands fa-linkedin-in"></i>
                             </a>
                             <a href='https://www.instagram.com/_tustus__/'>
-                                <li>
-                                    <i class="fa-brands fa-instagram"></i>
-                                </li>
+                                <i className="fa-brands fa-instagram"></i>
                             </a>
-                            <Link href='/admin'>
-                                <li>
-                                    <i class="fa-solid fa-user-lock"></i>
-                                </li>
+                            <Link to={'/admin/login'}>
+                                <i className="fa-solid fa-user-lock"></i>
                             </Link>
                         </ul>
                     </div>

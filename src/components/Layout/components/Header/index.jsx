@@ -29,13 +29,13 @@ function Header() {
                 <div className={styles.brand}>
                     <Link className={styles.brandLink} to={'/'}>TB Fashion</Link>
                 </div>
-                <navbar className={styles.navbar}>
-                            <Link onClick={() => handleClick(1)} className={activeLink === 1 ? `${styles.link} ${styles.active}` : `${styles.link}`} to={'/'}>Home</Link>
-                            <Link onClick={() => handleClick(2)} className={activeLink === 2 ? `${styles.link} ${styles.active}` : `${styles.link}`} to={'/'}>Shop</Link>
-                            <Link onClick={() => handleClick(3)} className={activeLink === 3 ? `${styles.link} ${styles.active}` : `${styles.link}`} to={'/'}>Sale</Link>
-                            <Link onClick={() => handleClick(4)} className={activeLink === 4 ? `${styles.link} ${styles.active}` : `${styles.link}`} to={'/'}>Customer Care</Link>
-                            <Link onClick={() => handleClick(5)} className={activeLink === 5 ? `${styles.link} ${styles.active}` : `${styles.link}`} to={'/'}>Stockits</Link>
-                </navbar>
+                <nav className={styles.navbar}>
+                    <Link onClick={() => handleClick(1)} className={activeLink === 1 ? `${styles.link} ${styles.active}` : `${styles.link}`} to={'/'}>Home</Link>
+                    <Link onClick={() => handleClick(2)} className={activeLink === 2 ? `${styles.link} ${styles.active}` : `${styles.link}`} to={'/shop'}>Shop</Link>
+                    <Link onClick={() => handleClick(3)} className={activeLink === 3 ? `${styles.link} ${styles.active}` : `${styles.link}`} to={'/sale'}>Sale</Link>
+                    <Link onClick={() => handleClick(4)} className={activeLink === 4 ? `${styles.link} ${styles.active}` : `${styles.link}`} to={'/customer-care'}>Customer Care</Link>
+                    <Link onClick={() => handleClick(5)} className={activeLink === 5 ? `${styles.link} ${styles.active}` : `${styles.link}`} to={'/stockits'}>Stockits</Link>
+                </nav>
             </div>
         </header>
     );
